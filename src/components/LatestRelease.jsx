@@ -19,7 +19,7 @@ class LatestRelease extends Component {
                     <Row className="justify-content-center">
                             {
                                 fantasybooks.map((book, i) =>(
-                                    <div  key={book.asin} className="col-12 col-md-12 col-lg-3 p-sm-3">
+                                    <div  key={book.asin} className="col-12 col-md-12 col-lg-3 pt-3">
                                         <Card className ='card' 
                                             style={{ height: '33rem'}} 
                                            
@@ -61,7 +61,7 @@ class LatestRelease extends Component {
                     <Row className="justify-content-center">
                             {
                                 horrorbooks.map((book, i) =>(
-                                    <div key={book.asin} className="col-12 col-md-12 col-lg-3 p-sm-3">
+                                    <div key={book.asin} className="col-12 col-md-12 col-lg-3 pt-3">
                                         <Card className ='card' 
                                             style={{ height: '33rem'}} 
                                             
@@ -85,7 +85,7 @@ class LatestRelease extends Component {
                     <Row className="justify-content-center">
                             {
                                 scifibooks.map((book, i) =>(
-                                    <div key={book.asin} className="col-12 col-md-12 col-lg-3 p-sm-3">
+                                    <div key={book.asin} className="col-12 col-md-12 col-lg-3 pt-3">
                                         <Card className ='card' 
                                             style={{ height: '33rem'}} 
                                             
@@ -108,7 +108,7 @@ class LatestRelease extends Component {
                     <Row className="justify-content-center">
                             {
                                 romancebooks.map((book, i) =>(
-                                    <div key={book.asin} className="col-12 col-md-12 col-lg-3 p-sm-3">
+                                    <div key={book.asin} className="col-12 col-md-12 col-lg-3 pt-3">
                                         <Card className ='card' 
                                             style={{ height: '33rem'}} 
                                             
@@ -131,7 +131,7 @@ class LatestRelease extends Component {
                     <Row className="justify-content-center">
                             {
                                 historybooks.map((book, i) =>(
-                                    <div key={book.asin} className="col-12 col-md-12 col-lg-3 p-sm-3">
+                                    <div key={book.asin} className="col-12 col-md-12 col-lg-3 pt-3">
                                         <Card className ='card' 
                                             style={{ height: '33rem'}} 
                                             
