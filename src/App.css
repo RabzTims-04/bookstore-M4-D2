@@ -1,0 +1,137 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer{
+  background-image: url('../src/assets/wp2758145.gif');
+ /*  background: #C455CE;
+    background: -moz-linear-gradient(45deg, #C455CE 0%, #250822 71%, #110D05 100%);
+    background: -webkit-linear-gradient(45deg, #C455CE 0%, #250822 71%, #110D05 100%);
+    background: linear-gradient(45deg, #C455CE 0%, #250822 71%, #110D05 100%);
+    color: white;  */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  min-width:100vw;
+  max-height: 20vh;
+
+}
+
+.navbar{
+  background-color: black!important;
+}
+
+.bg-dark{
+  background-color: black!important;
+}
+
+.footer li{
+  list-style: none;
+  color: white;
+}
+
+.card-body{
+  position: relative;
+  background: #CEC6CE;
+background: -moz-linear-gradient(top, #CEC6CE 0%, #A39CA4 50%, #C544C0 100%);
+background: -webkit-linear-gradient(top, #CEC6CE 0%, #A39CA4 50%, #C544C0 100%);
+background: linear-gradient(to bottom, #CEC6CE 0%, #A39CA4 50%, #C544C0 100%);
+}
+
+.card-title{
+  color: #444444;
+  
+  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+  color: #444444;
+  
+}
+
+.bookprice{
+  position:absolute;
+  bottom: 10px;
+}
+ 
+.nav-title{
+
+   
+    
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    color: #FFFFFF;
+    
+
+}
+
+.jumbo-title{
+
+  color: #FFFFFF;   
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    color: #FFFFFF;
+    
+}
+
+.jumbotron{
+    /* background: #C455CE;
+    background: -moz-linear-gradient(45deg, #C455CE 0%, #250822 71%, #110D05 100%);
+    background: -webkit-linear-gradient(45deg, #C455CE 0%, #250822 71%, #110D05 100%);
+    background: linear-gradient(45deg, #C455CE 0%, #250822 71%, #110D05 100%); */
+    background-image: url('../src/assets/6wY.gif');
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position-y: center;
+    color: white; 
+    min-height: 20vh;
+}
+
+.nav a{
+  color: #FFFFFF;   
+    text-shadow: #FFF 0px 0px 2px, #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FF2D95 0px 0px 10px, #FF2D95 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 200px, #FF2D95 0px 0px 30px;
+    color: #FFFFFF;
+}
+
+.nav a:hover{
+  text-shadow: 2px 0 0px #800040, 3px 2px 0px rgba(77,0,38,0.5), 3px 0 3px #FF002B, 5px 0 3px #800015, 6px 2px 3px rgba(77,0,13,0.5), 6px 0 9px #FF5500, 8px 0 9px #802A00, 9px 2px 9px rgba(77,25,0,0.5), 9px 0 18px #FFD500, 11px 0 18px #806A00, 12px 2px 18px rgba(77,66,0,0.5), 12px 0 30px #D4FF00, 14px 0 30px #6A8000, 15px 2px 30px rgba(64,77,0,0.5), 15px 0 45px #80FF00, 17px 0 45px #408000, 17px 2px 45px rgba(38,77,0,0.5), 2px 5px 2px rgba(194,76,206,0.01);
+  color: #A7DD3C;
+}
+
+i:hover{
+  transform: translateY(2px);
+}
