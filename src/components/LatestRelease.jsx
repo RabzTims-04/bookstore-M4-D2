@@ -29,7 +29,7 @@ class LatestRelease extends Component {
                                                 <Card.Text>
                                                 {book.title}
                                                 </Card.Text>
-                                                <h5 className='bookprice'>{book.price}</h5>
+                                                <h5 className='bookprice'>{book.price} $</h5>
                                             </Card.Body>
                                             </Card>
                                         </div>
@@ -52,7 +52,7 @@ class LatestRelease extends Component {
                                                 <Card.Text>
                                                 {book.title}
                                                 </Card.Text>
-                                                <h5 className='bookprice'>{book.price}</h5>
+                                                <h5 className='bookprice'>{book.price} $</h5>
                                             </Card.Body>
                                             </Card>
                                         </div>
@@ -76,7 +76,7 @@ class LatestRelease extends Component {
                                                 <Card.Text>
                                                 {book.title}
                                                 </Card.Text>
-                                                <h5 className='bookprice'>{book.price}</h5>
+                                                <h5 className='bookprice'>{book.price} $</h5>
                                             </Card.Body>
                                             </Card>
                                         </div>
@@ -99,7 +99,7 @@ class LatestRelease extends Component {
                                                 <Card.Text>
                                                 {book.title}
                                                 </Card.Text>
-                                                <h5 className='bookprice'>{book.price}</h5>
+                                                <h5 className='bookprice'>{book.price} $</h5>
                                             </Card.Body>
                                             </Card>
                                         </div>
@@ -122,7 +122,7 @@ class LatestRelease extends Component {
                                                 <Card.Text>
                                                 {book.title}
                                                 </Card.Text>
-                                                <h5 className='bookprice'>{book.price}</h5>
+                                                <h5 className='bookprice'>{book.price} $</h5>
                                             </Card.Body>
                                             </Card>
                                         </div>
