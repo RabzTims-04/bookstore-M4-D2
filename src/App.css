@@ -39,11 +39,6 @@
 
 .footer{
   background-image: url('../src/assets/wp2758145.gif');
- /*  background: #C455CE;
-    background: -moz-linear-gradient(45deg, #C455CE 0%, #250822 71%, #110D05 100%);
-    background: -webkit-linear-gradient(45deg, #C455CE 0%, #250822 71%, #110D05 100%);
-    background: linear-gradient(45deg, #C455CE 0%, #250822 71%, #110D05 100%);
-    color: white;  */
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: center;
@@ -57,10 +52,6 @@
 }
 
 .navbar{
-  background-color: black!important;
-}
-
-.bg-dark{
   background-color: black!important;
 }
 
@@ -78,8 +69,7 @@ background: linear-gradient(to bottom, #CEC6CE 0%, #A39CA4 50%, #C544C0 100%);
 }
 
 .card-title{
-  color: #444444;
-  
+  color: #444444;  
   text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
   color: #444444;
   
@@ -88,16 +78,30 @@ background: linear-gradient(to bottom, #CEC6CE 0%, #A39CA4 50%, #C544C0 100%);
 .bookprice{
   position:absolute;
   bottom: 10px;
+  left : 50px;
+}
+
+.cart{
+  position:absolute;
+  bottom: 19px;
+  left : 10px;
+}
+
+.pay-icons{
+  position:absolute;
+  bottom: 15px;
+  right : 10px;
+}
+
+.pay-icons-lg{
+  position:absolute;
+  bottom: 50px;
+  right : 20px;
 }
  
-.nav-title{
-
-   
-    
+.nav-title{ 
     text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
     color: #FFFFFF;
-    
-
 }
 
 .jumbo-title{
@@ -109,10 +113,6 @@ background: linear-gradient(to bottom, #CEC6CE 0%, #A39CA4 50%, #C544C0 100%);
 }
 
 .jumbotron{
-    /* background: #C455CE;
-    background: -moz-linear-gradient(45deg, #C455CE 0%, #250822 71%, #110D05 100%);
-    background: -webkit-linear-gradient(45deg, #C455CE 0%, #250822 71%, #110D05 100%);
-    background: linear-gradient(45deg, #C455CE 0%, #250822 71%, #110D05 100%); */
     background-image: url('../src/assets/6wY.gif');
      background-repeat: no-repeat;
      background-size: cover;

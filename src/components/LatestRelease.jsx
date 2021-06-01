@@ -5,6 +5,7 @@ import historybooks from '../data/history.json'
 import horrorbooks from '../data/horror.json'
 import romancebooks from '../data/romance.json'
 import scifibooks from '../data/scifi.json'
+import { MDBIcon } from "mdbreact";
 
 
 class LatestRelease extends Component {
@@ -29,7 +30,26 @@ class LatestRelease extends Component {
                                                 <Card.Text>
                                                 {book.title}
                                                 </Card.Text>
-                                                <h5 className='bookprice'>{book.price} $</h5>
+                                                <div className = "d-flex justify-content-between">
+                                                    <div className="d-inline ">
+                                                        <MDBIcon className="d-inline cart" icon="cart-plus" spin size="lg" fixed />                                       
+                                                        <h5 className='bookprice d-inline'>{book.price} $</h5>
+                                                    </div>
+                                                    <div className="pay-icons d-lg-none">
+                                                    <MDBIcon className="pr-2" fab icon="cc-visa" size="lg"/>
+                                                    <MDBIcon className="pr-2" fab icon="cc-paypal" size="lg"/>
+                                                    <MDBIcon className="pr-2" fab icon="cc-mastercard" size="lg"/>
+                                                    <MDBIcon className="pr-2" fab icon="cc-apple-pay" size="lg"/>
+                                                    <MDBIcon className="pr-2" fab icon="cc-amazon-pay" size="lg"/>
+                                                    </div>
+                                                    <div className="pay-icons-lg d-none d-lg-flex">
+                                                    <MDBIcon className="pr-2" fab icon="cc-visa" size="lg"/>
+                                                    <MDBIcon className="pr-2" fab icon="cc-paypal" size="lg"/>
+                                                    <MDBIcon className="pr-2" fab icon="cc-mastercard" size="lg"/>
+                                                    <MDBIcon className="pr-2" fab icon="cc-apple-pay" size="lg"/>
+                                                    <MDBIcon className="pr-2" fab icon="cc-amazon-pay" size="lg"/>
+                                                    </div>
+                                               </div>  
                                             </Card.Body>
                                             </Card>
                                         </div>
@@ -122,6 +142,7 @@ class LatestRelease extends Component {
                                                 <Card.Text>
                                                 {book.title}
                                                 </Card.Text>
+                                                
                                                 <h5 className='bookprice'>{book.price} $</h5>
                                             </Card.Body>
                                             </Card>
