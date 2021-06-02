@@ -14,7 +14,7 @@ class LatestRelease extends Component {
         return (
 
             <Container>
-                    <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
+                    <Tabs defaultActiveKey="fantasy" id="uncontrolled-tab-example">
                         
                     <Tab eventKey="fantasy" title="Fantasy">
                     <Row className="justify-content-center">                            
